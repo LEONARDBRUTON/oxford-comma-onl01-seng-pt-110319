@@ -5,7 +5,8 @@
 
 
 def oxford_comma(array)
-  array.join.each do |fruit|
+  if array == 1
+    return
   end
   array
 end
